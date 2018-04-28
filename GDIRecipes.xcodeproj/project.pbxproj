@@ -12,6 +12,7 @@
 		F939013A20943D4F000F1EB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F939013820943D4F000F1EB5 /* Main.storyboard */; };
 		F939013C20943D4F000F1EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F939013B20943D4F000F1EB5 /* Assets.xcassets */; };
 		F939013F20943D4F000F1EB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F939013D20943D4F000F1EB5 /* LaunchScreen.storyboard */; };
+		F939014720943D63000F1EB5 /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939014620943D63000F1EB5 /* DataSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F939013B20943D4F000F1EB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F939013E20943D4F000F1EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F939014020943D4F000F1EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F939014620943D63000F1EB5 /* DataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		F939013320943D4F000F1EB5 /* GDIRecipes */ = {
 			isa = PBXGroup;
 			children = (
+				F939014620943D63000F1EB5 /* DataSet.swift */,
 				F939013420943D4F000F1EB5 /* AppDelegate.swift */,
 				F939013620943D4F000F1EB5 /* ViewController.swift */,
 				F939013820943D4F000F1EB5 /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F939014720943D63000F1EB5 /* DataSet.swift in Sources */,
 				F939013720943D4F000F1EB5 /* ViewController.swift in Sources */,
 				F939013520943D4F000F1EB5 /* AppDelegate.swift in Sources */,
 			);
